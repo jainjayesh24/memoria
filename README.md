@@ -30,26 +30,6 @@ Tech Stack
     
 *   **Design**: Tailwind CSS with custom typography (Oxanium, Manrope, DM Mono)
     
-
-Getting Started
----------------
-
-### Prerequisites
-
-*   Node.js (v18 or higher)
-    
-*   npm (v9 or higher)
-    
-
-### Installation
-
-1.  Bashgit clone https://github.com/jainjayesh24/memoria.gitcd memoria
-    
-2.  Bashnpm run install:all
-    
-3.  Bashnpm run devThe application will be available at **http://localhost:5173**. The backend runs on port 3001 and is automatically proxied by Vite.
-    
-
 Project Structure
 -----------------
 
