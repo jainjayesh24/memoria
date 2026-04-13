@@ -6,7 +6,7 @@
   "scripts": {
     "install:all": "npm install --prefix backend && npm install --prefix frontend",
     "dev": "concurrently -n backend,frontend -c cyan,magenta \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
-    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
     "start": "node backend/server.js"
   },
   "devDependencies": {
