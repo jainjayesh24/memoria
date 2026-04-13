@@ -2,7 +2,7 @@ services:
   - type: web
     name: memoria
     runtime: node
-    buildCommand: npm run build
+    buildCommand: "sh -c 'npm install --prefix frontend && (cd frontend && node_modules/.bin/vite build) && npm install --prefix backend'"
     startCommand: npm start
     envVars:
       - key: NODE_ENV
